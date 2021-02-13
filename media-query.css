@@ -3,17 +3,21 @@
         margin-top: 7vh;
     }
 }
-@media(max-height:526px) {
+@media(max-height:528px) {
     .card-container .numbers {
         margin-top: 4vh;
     }
 }
 .card-container img#profile-img {
-    border: solid 6px white;
-    border-radius: 50%;
-    margin-top: -20%;
+    margin-top: -35%;
 }
+@media(max-height:382px){
+    .card-container img#profile-img {
+        width: 80px;
+        height: 80px;
+        margin-top: -32%;
 }
+
 
 @media(max-width: 1440px) {
     .card-container {
