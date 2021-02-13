@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-color: hsl(185, 75%, 39%);
+
+    font-family: 'Kumbh Sans', sans-serif;
+    color: hsl(229, 23%, 23%);
+}
+.circle1 {
+    width: 45em;
+    margin-left: -10em;
+    margin-top: -18em;
+
+    z-index: -1;
+    position: fixed;
+}
+.circle2 {
+    width: 50em;
+    position: fixed;
+
+    right: -8em;
+    bottom: -32em;
+    z-index: -1;
+}
+main {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.card-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    margin-top: 20vh;
+    border-radius: 15px 15px 15px 15px;
+    height: 63vh;
+}
+.card-container  section.top-container img#texture {
+    border-radius: 15px 15px 0 0;
+}
+.card-container img#profile-img {
+    border: solid 6px white;
+    border-radius: 50%;
+    margin-top: -15%;
+}
+.card-container section.informations .name-age-local {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-container section.informations .name-age-local p:first-child {
+    margin: 18px 0 0 0;
+    text-align: center;
+    font-size: 18px;
+}
+.card-container section.informations .name-age-local p:last-child {
+    margin: 10px 0 0 0;
+    text-align: center;
+}
+.card-container .numbers {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 100%;
+
+    margin-top: 10vh;
+}
+.followers,
+.likes,
+.photos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+
+    cursor: pointer;
+}
+.followers p,
+.likes p,
+.photos p {
+    margin: 0;
+    text-align: center;
+    color: hsl(227, 10%, 46%);
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+.followers p:first-child,
+.likes p:first-child,
+.photos p:first-child {
+    font-weight: 800;
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: hsl(229, 23%, 23%);
+    letter-spacing: normal;
+}
+footer { 
+    margin: 25px 0 0 0;
+    font-size: 11px; 
+    text-align: center; 
+}
+
+footer a {
+     color: hsl(228, 45%, 44%); 
+}
