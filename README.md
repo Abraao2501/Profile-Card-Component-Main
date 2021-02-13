@@ -8,4 +8,4 @@ This project aims to improve my CSS skills.
 
 The entire layout was developed using the CSS Flexbox property
 
-You can visit the Project Demo by clicking <a href="#"> here! <a>
+You can visit the Project Demo by clicking <a href="https://profile-card-component-main-lovat-pi.vercel.app/"> here! <a>

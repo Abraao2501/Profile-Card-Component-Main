@@ -19,11 +19,12 @@ body {
     position: fixed;
 }
 .circle2 {
-    width: 50em;
-    position: fixed;
+    width: 45em;
+    margin-left: 44em;
+    margin-top: -14em;
 
-    right: -8em;
-    bottom: -32em;
+
+    position: fixed;
     z-index: -1;
 }
 main {
@@ -41,6 +42,7 @@ main {
     margin-top: 20vh;
     border-radius: 15px 15px 15px 15px;
     height: 63vh;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
 }
 .card-container  section.top-container img#texture {
     border-radius: 15px 15px 0 0;
