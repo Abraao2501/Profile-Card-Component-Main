@@ -7,10 +7,11 @@
     .card-container .numbers {
         margin-top: 4vh;
     }
+    .card-container img#profile-img {
+        margin-top: -35%;
+    }
 }
-.card-container img#profile-img {
-    margin-top: -35%;
-}
+
 @media(max-height:382px){
     .card-container img#profile-img {
         width: 80px;
@@ -18,8 +19,6 @@
         margin-top: -32%;
 }
 }
-
-
 @media(max-width: 1440px) {
     .card-container {
         height: 65vh;
